@@ -7,13 +7,13 @@ variable "ado_org_service_url" {
 variable "ado_github_repo" {
   type        = string
   description = "Name of the repository in the format <GitHub Org>/<RepoName>"
-  default     = "kumardevops426/terraform-tuesdays"
+  default     = "kumardevops426/tfdevopspro"
 }
 
 variable "ado_pipeline_yaml_path_1" {
   type        = string
   description = "Path to the yaml for the first pipeline"
-  default     = "2021-05-11-ADO/vnet/azure-pipelines.yaml"
+  default     = "vnet/azure-pipelines.yaml"
 }
 
 variable "ado_github_pat" {
